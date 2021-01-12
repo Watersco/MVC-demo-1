@@ -1,0 +1,38 @@
+#app4 {
+  border: 1px solid red;
+  height: 50vh;
+  width: 50vw;
+  position: relative;
+  overflow: hidden;
+}
+
+#app4 .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+@keyframes change {
+  0% {
+    background: yellow;
+  }
+  33% {
+    background: coral;
+  }
+  66% {
+    background: crimson;
+  }
+  100% {
+    background: yellowgreen;
+  }
+}
+
+#app4 .circle.mouse {
+  animation: change 0.5s infinite alternate linear;
+}

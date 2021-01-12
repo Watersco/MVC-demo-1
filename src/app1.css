@@ -1,0 +1,19 @@
+#app1 {
+  border: 1px solid #000;
+  width: 50vw;
+  height: 50vh;
+}
+#app1 .output {
+  font-size: 30px;
+}
+#app1 .action {
+}
+
+#app1 .action button {
+  width: 40px;
+  font-size: 32px;
+}
+
+#app1 .action .qing0 {
+  font-size: 18px;
+}
